@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Aleo:300,400,700|Josefin+Sans:400,700" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="styles/style.css">
 	<title>Exam Miroshnichenko</title>
@@ -65,7 +66,7 @@
 				Ddislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire,
 				that.
 			</p>
-			<button type="submit">Explore Places</button>
+			<button type="submit" class="show-modal">Explore Places</button>
 		</div>
 
 		<div class="why-choose__images">
@@ -94,14 +95,19 @@
 				Book & Enjoy
 			</div>
 		</div>
-
-
 	</div>
 </section>
-
 
 <div class="footer">
 </div>
 
+<div class="modal-overlay">
+  <div class="modal-body">
+    <img src="https://www.tesla.com/content/dam/tesla-site/sx-redesign/img/socialcard/MS.jpg" alt="Tesla" />
+    <button type="button" data-close>Close</button>
+  </div>
+</div>
+
+<script src="./js/main.js" type="application/javascript"></script>
 </body>
 </html>
